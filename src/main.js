@@ -12,6 +12,8 @@ import "../styles/utils.css";
 
 import { mobileNav } from "./utils/mobile-nav";
 import { themeSwitcher } from "./utils/dark-mode";
+import { lazyLoading } from "./utils/lazy-loading";
 
 mobileNav();
 themeSwitcher();
+lazyLoading();

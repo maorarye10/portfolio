@@ -43,6 +43,15 @@
   margin-top: 5rem;
 }
 
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
 /* xs */
 @media screen and (min-width: 475px) {
   .container {
